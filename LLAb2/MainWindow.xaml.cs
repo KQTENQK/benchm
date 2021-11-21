@@ -137,7 +137,6 @@ namespace LLAb2
             string directory = @"C:\BenchMark";
             Directory.CreateDirectory(directory);
 
-            TimeSpan testDuration = new TimeSpan(0, 0, 5);
             Stopwatch stopwatch = new Stopwatch();
 
             try
